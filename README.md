@@ -13,13 +13,13 @@ YouTube Time Stamps (YTTS) is a javascript + CSS which allows one to add timesta
 
 ## Usage
 
-Of course, no one wants to write down all of that HTML by hand, so I have also made an HTML compiler with Haskell which you download here, or build it directly from the source code.
+Of course, no one wants to write down all of that HTML by hand, so I have also made an HTML compiler with Haskell which you download [here](https://github.com/Awelson/YTTS/releases/tag/v1.0.0), or build it directly from the source code.
 
 - In the same folder as YTTS.exe, create three new text files and name them TimePoints.txt, TimeStamps.txt, and YouTube.txt
 - In YouTube.txt, add a link to the YouTube video
 - In TimeStamps.txt, add (line by line) the time (in seconds) where you want the anchor to link to, followed by the anchor text 
 - In TimePoints.txt, add (line by line) the time (in seconds) where you want the subtitles to appear, followed by the subtitle text
-- Tun YTTS.exe
+- Run YTTS.exe
 
 For example :
 
